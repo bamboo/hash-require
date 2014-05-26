@@ -1,4 +1,5 @@
 # hash-require
+[![Build Status](https://travis-ci.org/bamboo/hash-require.svg?branch=master)](https://travis-ci.org/bamboo/hash-require)
 
 Metascript #require macro for all your nodejs require needs.
 
