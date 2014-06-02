@@ -8,11 +8,11 @@ var path = require('path');
 var Stream = require('stream').Stream;
 
 var paths = {
-    src: ['require.mjs'],
+    src: ['*.mjs'],
     dest: '.',
     test: {
       lib: ['test/for-all.mjs'],
-      src: ['test/require-test.mjs'],
+      src: ['test/*-test.mjs'],
       dest: 'test'
     }
 };

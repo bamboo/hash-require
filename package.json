@@ -2,7 +2,7 @@
   "name": "hash-require",
   "version": "0.0.2",
   "description": "metascript #require macro",
-  "main": "require.js",
+  "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
