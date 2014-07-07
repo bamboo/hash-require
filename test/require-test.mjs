@@ -45,3 +45,21 @@ describe
           block
             var m = require './m'
             var s = m.s
+
+    it
+      '#require (n: m) => (var n = require "m")'
+      () ->
+        for-all
+          block
+            #require (n: m)
+          block
+            var n = require 'm'
+
+    it
+      '#require (n: "./m") => (var n = require "./m")'
+      () ->
+        for-all
+          block
+            #require (n: './m')
+          block
+            var n = require './m'
